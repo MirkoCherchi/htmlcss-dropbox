@@ -337,7 +337,29 @@ justify-content: space-between;
     border: 1px solid black;
 }
 
+.box{
+    width: calc((100% - 100px) / 3);
+}
 
+.cont-box{
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;  
+}
+
+.p-box{
+    font-size: 13px;
+    margin-top: 40px;
+    
+}
+
+.foto-box > img{
+    width: 100%;
+}
+
+.foto-box{
+    margin-bottom: 30px;
+}
 
 
 /* /main */

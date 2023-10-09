@@ -8,3 +8,54 @@
 body{
     font-family: 'Open Sans', sans-serif;
 }
+
+/* header */
+
+/* nav */
+
+.container{
+    display: flex;
+    height: 80px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.nav-left, .nav-right{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+
+.nav-left ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav-right ul li a{
+    text-decoration: none;
+    color: black;   
+}
+
+.btn{
+    background-color: #0061ff;
+    color: #f2f7ff;
+    padding: 10px 18px;
+    border: none;
+    cursor: pointer;
+}
+
+/* /nav */
+
+
+

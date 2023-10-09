@@ -36,10 +36,6 @@ img{
 
 /* nav */
 
-.header-top{
-   
-}
-
 .container-nav{
     display: flex;
     align-items: center;
@@ -127,7 +123,6 @@ p > .btn{
 .mega-container{
     background-color: #b4d0e7;
     height: calc(740px + 80px);
-    padding: ;
 }
 
 
@@ -303,12 +298,34 @@ justify-content: space-between;
 .flex-botton{
     display: flex;
     justify-content: space-between;
-
 }
 
+.foto-descrizione{
+    display: flex;
+}
 
+.foto-left{
+    width: 100%;
+}
 
+.foto-left > img{
+    width: 100%;
+}
 
+.descrizione-right{
+    width: 70%;
+    padding: 55px;
+}
+
+.descrizione-right > p{
+    padding: 20px 0;
+}
+
+.btn.btn-white{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
 
 
 

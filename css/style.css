@@ -10,23 +10,42 @@ body{
     font-size: 15px;
 }
 
+img{
+    display: block;
+}
+
+.big-cont{
+    margin: 0 auto;
+    max-width: 1205px;
+}
+
+.mini-cont{
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
 
 
 /* header */
 
 /* nav */
 
+.header-top{
+   
+}
+
 .container-nav{
     display: flex;
-    height: 80px;
     align-items: center;
     justify-content: space-between;
     padding: 0 20px;
-    /* position: fixed; */
+    background-color: white;
+    height: 80px;
     top: 0;
     left: 0;
     right: 0;
-    background-color: white;
+    position: fixed;
+    
 }
 
 .nav-left, .nav-right{
@@ -59,33 +78,30 @@ ul{
     cursor: pointer;
 }
 
+
+
 /* /nav */
 
 /* jumbotron */
-
-header{
-    background-color: red;
-}
-
-.container{
-    margin: 0 auto;
-    max-width: 1205px;
-}
 
 h1{
     text-align: left;
     font-size: 80px;
     font-weight: bold;
-    margin-top: 105px;
-    margin-bottom: 75px;
+    padding-top: 185px;
+    padding-bottom: 65px;
 }
 
 .left-bottom{
     width: 390px;
 }
 
+.left-bottom p{
+    font-size: 15px;
+}
+
 p > .btn{
-    margin: 35px 0;
+    margin: 30px 0;
 }
 
 .fa-arrow-down{
@@ -93,7 +109,42 @@ p > .btn{
     margin: 80px 0 25px 0;
 }
 
+.right-bottom{
+    width: calc(100% - 390px);   
+}
+
+.jumbo-img{
+    width: 100%;
+    display: block;
+}
+
+.mega-container{
+    background-color: #b4d0e7;
+    height: calc(740px + 80px);
+    padding: ;
+}
+
+
+span{
+    display: flex;
+}
+
+.flex-header{
+    display: flex;
+}
 
 /* /jumbotron */
+
 /* /header */
 
+
+/* main */
+
+
+
+
+
+
+
+
+/* /main */

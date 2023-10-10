@@ -58,6 +58,17 @@ img{
     filter: brightness(1.4);
 }
 
+.change-chevron{
+    position: relative;
+}
+.change-chevron:active .fa-chevron-up{
+   display: none;
+}
+.change-chevron:active .fa-chevron-down {
+   display: block;
+}
+
+
 /* header */
 
 /* nav */
@@ -82,7 +93,7 @@ img{
     align-items: center;
 }
 
-ul{
+.list-header{
     display: flex;
     list-style: none;
     gap: 40px;
@@ -103,10 +114,6 @@ ul{
     text-decoration: none;
     color: black;   
 }
-
-
-
-
 
 /* /nav */
 
@@ -497,6 +504,95 @@ color: #61082b;
     width: 50%;
     text-align: right;
 }
+
+.domanda{
+    font-weight: bold;
+    margin: 45px 0;
+}
+
+.line-question{
+color: #999999;
+}
+
+.title-question{
+    margin-bottom: 75px;
+}
+
+.question-icon{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fa-chevron-up{
+    padding-right: 40px;
+}
+
+.line-question2{
+    margin-bottom: 150px;
+    color: #999999;
+}
+
+.fa-chevron-down{
+    position: relative;
+    right: 40px;
+    bottom: 0;
+    display: none;
+}
+
+.cont-footer{
+    margin: 0 auto;
+    color: white;
+    max-width: 1000px;
+}
+
+.mega-foot{
+    background-color: black;
+    padding-top: 110px;
+    border-bottom: 2px solid white;
+}
+
+.list-foot{
+    list-style: none;
+}
+
+.titolino-list{
+    margin-bottom: 35px;
+    font-size: 20px;
+}
+
+.link-foot{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+.margin-list{
+    margin-bottom: 20px;
+}
+
+.list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.line-foot{
+    width: 120px;
+    margin-top: 120px;
+}
+
+.lenguage{
+    color: #999999;
+    padding: 50px 0;
+    
+}
+
+
+
+
+
+
+
 
 
 /* /main */

@@ -15,10 +15,9 @@ img{
     max-width: 100%;
 }
 
-
 .big-cont{
     margin: 0 auto;
-    max-width: 1205px;
+    max-width: 1180px;
     position: relative;
 }
 
@@ -67,7 +66,6 @@ img{
 .change-chevron:active .fa-chevron-down {
    display: block;
 }
-
 
 /* header */
 
@@ -149,7 +147,6 @@ p > .btn{
     position: absolute; 
     right: 0;
 }
-
 
 .mega-container{
     background-color: #b4d0e7;
@@ -248,6 +245,7 @@ span{
 
 .dettaglio-piano > ul li{
     display: flex;
+    margin-bottom: 25px;
 }
 
 .fa-solid{
@@ -310,8 +308,7 @@ justify-content: space-between;
     text-align: center;
     padding: 10px;
     border-bottom: 1px solid #d0d0d3;
-    font-size: 13px;
-    
+    font-size: 13px;    
 }
 
 .prezzo-piano-centrale{
@@ -360,10 +357,14 @@ justify-content: space-between;
     margin-bottom: 210px;
 }
 
+.big-tit{
+    font-size: 35px;
+    margin-bottom: 75px ;
+}
+
 .p-box{
     font-size: 13px;
-    margin-top: 40px;
-    
+    margin-top: 40px; 
 }
 
 .foto-box > img{
@@ -400,7 +401,6 @@ justify-content: space-between;
     height: calc(100% / 2);
     align-items: center;
     justify-content: center;
-
 }
 
 .partner-img{
@@ -434,7 +434,6 @@ justify-content: space-between;
     width: calc(100% / 3);
     padding-left: 50px;
     background-color: #f5f5f5;
-
 }
 
 .partner{
@@ -539,11 +538,15 @@ color: #999999;
     bottom: 0;
     display: none;
 }
+/* /main */
+
+
+/* footer */
 
 .cont-footer{
     margin: 0 auto;
     color: white;
-    max-width: 1000px;
+    max-width: 1185px;
 }
 
 .mega-foot{
@@ -584,15 +587,7 @@ color: #999999;
 .lenguage{
     color: #999999;
     padding: 50px 0;
-    
 }
 
+/* /footer */
 
-
-
-
-
-
-
-
-/* /main */

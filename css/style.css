@@ -33,6 +33,21 @@ img{
     max-width: 1000px;
     margin-top: 50px;
 }
+
+.btn{
+    background-color: #0061ff;
+    color: #f2f7ff;
+    padding: 10px 18px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn.btn-white{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
  /* bonus */
  header li:hover {
     border-bottom: 2px solid black;
@@ -89,13 +104,7 @@ ul{
     color: black;   
 }
 
-.btn{
-    background-color: #0061ff;
-    color: #f2f7ff;
-    padding: 10px 18px;
-    border: none;
-    cursor: pointer;
-}
+
 
 
 
@@ -333,12 +342,6 @@ justify-content: space-between;
     padding: 20px 0;
 }
 
-.btn.btn-white{
-    background-color: white;
-    color: black;
-    border: 1px solid black;
-}
-
 .box{
     width: calc((100% - 100px) / 3);
 }
@@ -375,7 +378,6 @@ justify-content: space-between;
     margin-top: 100px;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 100px;
 }
 
 .partner-left, .partner-right{
@@ -460,6 +462,41 @@ justify-content: space-between;
 }
 
 
+.cont-diventa-pa{
+    background-color: #b4d0e7;
+
+}
+
+.cont-pa{
+    display: flex;
+    margin: 0 auto;
+    max-width: 1000px;
+    justify-content: flex-start;
+    padding: 120px 0px;
+    align-items: baseline;
+}
+
+.btn-inizia{
+    background-color: white;
+    color: black;
+    padding: 10px 35px;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.titolino-pa{
+font-size: 40px;
+color: #61082b;
+}
+
+.cont-left{
+    width: 50%;
+}
+.cont-right{
+    width: 50%;
+    text-align: right;
+}
 
 
 /* /main */

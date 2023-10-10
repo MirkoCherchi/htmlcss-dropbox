@@ -12,16 +12,20 @@ body{
 
 img{
     display: block;
+    max-width: 100%;
 }
+
 
 .big-cont{
     margin: 0 auto;
     max-width: 1205px;
+    position: relative;
 }
 
 .mini-cont{
     margin: 0 auto;
     max-width: 1000px;
+    margin-top: 165px;
 }
 
 .central-cont{
@@ -29,8 +33,15 @@ img{
     max-width: 1000px;
     margin-top: 50px;
 }
+ /* bonus */
+ header li:hover {
+    border-bottom: 2px solid black;
+    padding-top: 2px;
+}
 
-
+.btn:hover{
+    filter: brightness(1.4);
+}
 
 /* header */
 
@@ -47,11 +58,7 @@ img{
     right: 0;
     position: fixed;
     z-index: 50;
-}
-
-header li:hover {
-    border-bottom: 2px solid black;
-    padding-top: 2px;
+    box-shadow: 0px 1px 2px #dedede;
 }
 
 .nav-left, .nav-right{
@@ -100,12 +107,12 @@ h1{
     text-align: left;
     font-size: 80px;
     font-weight: bold;
-    padding-top: 185px;
+    padding-top: 105px;
     padding-bottom: 65px;
 }
 
 .left-bottom{
-    width: 390px;
+    width: 30%;
 }
 
 .left-bottom p{
@@ -122,19 +129,18 @@ p > .btn{
 }
 
 .right-bottom{
-    width: calc(100% - 390px);   
+    width: 70%; 
+    position: absolute; 
+    right: 0;
 }
 
-.jumbo-img{
-    width: 100%;
-    display: block;
-}
 
 .mega-container{
     background-color: #b4d0e7;
-    height: calc(740px + 80px);
+    position: relative;
+    bottom: -80px;
+    margin-bottom: calc(165px + 80px);
 }
-
 
 span{
     display: flex;
@@ -151,11 +157,7 @@ span{
 
 /* main */
 
-.mini-cont {
-    margin-top: 165px;
-}
-
-.mini-cont > h2{
+.bottom-75{
     font-size: 40px;
     margin-bottom: 75px;
 }
@@ -345,6 +347,7 @@ justify-content: space-between;
     display: flex;
     gap: 50px;
     flex-wrap: wrap;  
+    margin-bottom: 210px;
 }
 
 .p-box{
@@ -358,8 +361,13 @@ justify-content: space-between;
 }
 
 .foto-box{
-    margin-bottom: 30px;
+    margin-bottom: 25px;
 }
 
+.larg-70{
+    width: 70%;
+    font-size: 40px;
+    margin-bottom: 70px;
+}
 
 /* /main */

@@ -42,88 +42,10 @@ img{
 }
 
 .btn.btn-white{
-    background-color: white;
-    color: black;
-    border: 1px solid black;
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #000000;
 }
-
- /* bonus */
- header li:hover {
-    border-bottom: 2px solid black;
-    padding-top: 2px;
-}
-
-.btn:hover{
-    filter: brightness(1.4);
-}
-
-.change-chevron{
-    position: relative;
-}
-.change-chevron:active .fa-chevron-up{
-   display: none;
-}
-.change-chevron:active .fa-chevron-down {
-   display: block;
-}
-
-.l-r{
-    transition: 2s;
-}
-
-.l-r:hover{
-    border: 15px rgba(0, 0, 0, 0.5);
-}
-
-.link-foot:hover{
-    text-decoration: underline;
-}
-
-.select-leng{
-    cursor: pointer;
-}
-
-.lenguage ul{
-    background-color: black;
-    border: 1px solid #f8f8f8;
-    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
-    border-radius: 5px;
-    width: 90px;
-    display: none;
-    position: absolute;
-    bottom: 10px;
-    left: 100px;
-}
-
-.lenguage{
-    position: relative;
-    width: 100px;
-}
-
-.lenguage ul li{
-    list-style: none;
-}
-
-.lenguage ul li a{
-    width: 89px;
-    display: block;
-    padding: 5px 15px;
-}
-
-.lenguage ul li a:hover{
-   background-color: #f2f2f2;
-   border-radius: 5px;
-}
-
-#dec-a{
-    text-decoration: none;
-    color: #999999;
-}
-
-.lenguage:hover ul{
-display: block;
-}
-
 
 /* header */
 
@@ -134,7 +56,7 @@ display: block;
     align-items: center;
     justify-content: space-between;
     padding: 0 20px;
-    background-color: white;
+    background-color: #ffffff;
     top: 0;
     left: 0;
     right: 0;
@@ -163,15 +85,19 @@ display: block;
 
 .nav-left ul li a{
     text-decoration: none;
-    color: black;
+    color: #000000;
 }
 
 .nav-right ul li a{
     text-decoration: none;
-    color: black;   
+    color: #000000;   
 }
 
 /* /nav */
+
+/* /header */
+
+/* main */
 
 /* jumbotron */
 
@@ -223,11 +149,6 @@ span{
 
 /* /jumbotron */
 
-/* /header */
-
-
-/* main */
-
 .bottom-75{
     font-size: 40px;
     margin-bottom: 75px;
@@ -247,6 +168,7 @@ span{
     border: 4px solid #1e74ff;
     margin-right: 2px;
     margin-top: 2px;
+    cursor: pointer; 
 }
 
 .cerchio2{
@@ -256,7 +178,8 @@ span{
     border-radius: 100%;
     border: 2px solid #d0d0d3;
     margin-right: 2px;
-    margin-top: 2px;   
+    margin-top: 2px;
+    cursor: pointer;   
 }
 
 .cerchi{
@@ -265,7 +188,7 @@ span{
 }
 
 .blocco{
-    width: calc((100% - 100px) / 3);
+    width: calc(100% / 3);
     display: flex;
     flex-direction: column;
     border: 1px solid #d0d0d3;
@@ -317,12 +240,11 @@ span{
     width: calc(100% - 25px);
 }
 
-.link{
-    height: 60px;
-    border-bottom: 1px solid #d0d0d3;
-    width: 50px;
-    display: inline-block;
-    margin-bottom: 50px;
+.line-blocchi{
+    color: #d0d0d3;
+    width: 20%;
+    margin: 50px 0;
+    
 }
 
 .punti-salienti > ul{
@@ -349,6 +271,7 @@ h4{
 .blocchi{
 display: flex;
 justify-content: space-between;
+gap: 50px;
 }
 
 .utente{
@@ -448,24 +371,27 @@ justify-content: space-between;
 }
 
 .partner-left, .partner-right{
-    width: calc(100vw/ 3);
+    width: calc(100% / 3);
     display: flex;
     flex-wrap: wrap; 
     height: calc(100vw / 3);  
 }
 
 .l-r{
-    width: calc(100% / 2);
-    padding: 80px;
-    display: flex;
-    height: calc(100% / 2);
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
+   height: 50%;
+   width: 50%;
+   position: relative;
 }
 
 .partner-img{
-    filter: invert(98%) sepia(0%) saturate(10%) hue-rotate(31deg) brightness(100%) contrast(105%);
+    filter: invert(1);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 50%;
+    transform: translate(-50%, -50%);
+    
+
 }
 
 .partner1{
@@ -499,6 +425,7 @@ justify-content: space-between;
     padding-left: 50px;
     background-color: #f5f5f5;
     height: calc(100vw / 3);
+    overflow: auto;
 }
 
 .partner{
@@ -552,8 +479,8 @@ justify-content: space-between;
 }
 
 .btn-inizia{
-    background-color: white;
-    color: black;
+    background-color: #ffffff;
+    color: #000000;
     padding: 10px 35px;
     border: none;
     cursor: pointer;
@@ -603,7 +530,7 @@ color: #999999;
 
 .fa-chevron-down{
     position: relative;
-    right: 40px;
+    right: 60px;
     bottom: 0;
     display: none;
 }
@@ -614,14 +541,14 @@ color: #999999;
 
 .cont-footer{
     margin: 0 auto;
-    color: white;
+    color: #ffffff;
     max-width: 1185px;
 }
 
 .mega-foot{
-    background-color: black;
+    background-color: #000000;
     padding-top: 110px;
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid #ffffff;
 }
 
 .list-foot{
@@ -635,7 +562,7 @@ color: #999999;
 
 .link-foot{
     text-decoration: none;
-    color: white;
+    color: #ffffff;
     font-size: 14px;
 }
 
@@ -659,4 +586,95 @@ color: #999999;
 }
 
 /* /footer */
+
+/* bonus */
+header li:hover {
+    border-bottom: 2px solid #000000;
+    padding-top: 2px;
+}
+
+.btn:hover{
+    filter: brightness(1.4);
+}
+
+.l-r{
+    transition: 2s;
+}
+
+.l-r:hover{
+    border: 15px rgba(0, 0, 0, 0.5);
+}
+
+.link-foot:hover{
+    text-decoration: underline;
+}
+
+.select-leng{
+    cursor: pointer;
+}
+
+.lenguage ul{
+    background-color: #000000;
+    border: 1px solid #f8f8f8;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    width: 90px;
+    display: none;
+    position: absolute;
+    bottom: 10px;
+    left: 100px;
+}
+
+.lenguage{
+    position: relative;
+    width: 100px;
+}
+
+.lenguage ul li{
+    list-style: none;
+}
+
+.lenguage ul li a{
+    width: 89px;
+    display: block;
+    padding: 5px 15px;
+}
+
+.lenguage ul li a:hover{
+   background-color: #f2f2f2;
+   border-radius: 5px;
+}
+
+#dec-a{
+    text-decoration: none;
+    color: #999999;
+}
+
+.lenguage:hover ul{
+display: block;
+}
+
+.bonus-p{
+    width: 90%;
+    display: none;
+    font-weight: bold;
+}
+
+.question-icon:hover .fa-chevron-up{
+   display: none;
+}
+.question-icon:hover .fa-chevron-down{
+   display: block;
+   position: relative;
+    right: 40px;
+    bottom: 30px;
+}
+
+.question-icon:hover .bonus-p{
+display: block;
+margin-top: 20px;
+}
+
+
+
 
